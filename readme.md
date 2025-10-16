@@ -1,3 +1,7 @@
+Watch the tutorial:
+
+https://youtu.be/ch-9DpZL6Vg
+
 Required Python modules:
 
     tapo
@@ -20,4 +24,5 @@ Sometimes the environment variables get stuck (after making changes to secrets.e
 
         cd /home/yojoe/Code
         dos2unix secrets.env          # harmless if already LF
+
         set -a; . ./secrets.env; set +a
